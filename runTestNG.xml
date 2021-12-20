@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" thread-count="2" parallel="methods">
+  <test name="Selenium_Demo1701">
+    <classes>
+      <class name="com.hujunqi.day01.TestNGDemo1"></class>
+      <class name="com.hujunqi.day07.LoginTest"></class>
+
+    </classes>
+  </test> <!-- Selenium_Demo1701 -->
+</suite> <!-- Default Suite -->
