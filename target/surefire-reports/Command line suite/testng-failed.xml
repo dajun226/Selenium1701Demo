@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.hujunqi.Grid.GridTests.GridTest">
+        <methods>
+          <include name="testChrome"/>
+          <include name="testGrid2" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.hujunqi.Grid.GridTests.GridTest -->
+      <class name="com.hujunqi.day05.ConfirmTest">
+        <methods>
+          <include name="openChromeDriver"/>
+        </methods>
+      </class> <!-- com.hujunqi.day05.ConfirmTest -->
+      <class name="com.hujunqi.day01.TestNGDemo1">
+        <methods>
+          <include name="beforeTest01"/>
+          <include name="afterMethod"/>
+          <include name="afterTest01"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hujunqi.day01.TestNGDemo1 -->
+      <class name="com.hujunqi.day05.WaitTest">
+        <methods>
+          <include name="closeChromeDriver"/>
+          <include name="openChromeDriver"/>
+        </methods>
+      </class> <!-- com.hujunqi.day05.WaitTest -->
+      <class name="com.hujunqi.day01.FindElementsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- com.hujunqi.day01.FindElementsTest -->
+      <class name="com.hujunqi.day05.WindowSelectTest">
+        <methods>
+          <include name="openChromeDriver"/>
+          <include name="closeChromeDriver"/>
+        </methods>
+      </class> <!-- com.hujunqi.day05.WindowSelectTest -->
+      <class name="com.hujunqi.day07.SendEmailTest">
+        <methods>
+          <include name="openChromeDriver"/>
+          <include name="sendEmail"/>
+        </methods>
+      </class> <!-- com.hujunqi.day07.SendEmailTest -->
+      <class name="com.hujunqi.day07.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="openChromeDriver"/>
+          <include name="LoginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.hujunqi.day07.LoginTest -->
+      <class name="com.hujunqi.day05.AlertTest">
+        <methods>
+          <include name="openChromeDriver"/>
+        </methods>
+      </class> <!-- com.hujunqi.day05.AlertTest -->
+      <class name="com.hujunqi.day01.OpenBrowserTest">
+        <methods>
+          <include name="openFireFoxTest"/>
+        </methods>
+      </class> <!-- com.hujunqi.day01.OpenBrowserTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
