@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="21" failures="7" name="TestSuite" time="106.32" errors="0" skipped="0">
+<testsuite tests="21" failures="5" name="TestSuite" time="98.044" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -21,7 +21,7 @@
     <property name="JAVA_OPTS" value=" -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.version" value="1.8.0_261"/>
-    <property name="JOB_NAME" value="跑runTestNG.xml"/>
+    <property name="JOB_NAME" value="WebdriverDemo201701"/>
     <property name="COMPUTERNAME" value="LAPTOP-RF0I95P3"/>
     <property name="EXECUTABLE" value="D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56\bin\catalina.bat"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -35,26 +35,27 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\BaoHu\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/1/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/2/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-跑runTestNG.xml-1"/>
+    <property name="BUILD_TAG" value="jenkins-WebdriverDemo201701-2"/>
     <property name="file.encoding" value="GBK"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0 D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56\webapps\jenkins\WEB-INF\lib\remoting-4.11.2.jar C:\Users\BaoHu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\BaoHu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59007"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0 D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56\webapps\jenkins\WEB-INF\lib\remoting-4.11.2.jar C:\Users\BaoHu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\BaoHu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61452"/>
     <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
     <property name="JENKINS_SERVER_COOKIE" value="d492d46636bf70af"/>
     <property name="=D:" value="D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56\bin"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="Path" value="C:\Windows\System32;D:\tools\python\python38\Scripts;D:\tools\python\python38;D:\tools\java\Java\jdk1.8.0_261\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\tools\java\Java\jdk1.8.0_261\jre;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\software_testing\software4\SVN\bin;D:\software_testing\software3\ADB\adb\platform-tools;D:\software_testing\software4\FTP\ant_ftp\ant\apache-ant-1.9.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\tools\NotAboutJava\Google\Google\Chrome\Application;D:\BDDownLoad\HadoopAndWindows\hadoop-3.1.0\bin;D:\BDDownLoad\ziliao\13Maven\apache_maven_3.8.1\bin;D:\tools\Environment\Git\DownLoadPath\Git\cmd;D:\tools\python\path\Scripts\;D:\tools\python\path\;C:\Users\BaoHu\AppData\Local\Microsoft\WindowsApps;D:\IDEA2019\IntelliJ IDEA 2019.3.3\bin;;D:\software_testing\software4\fiddler\path\Fiddler;C:\Users\BaoHu\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="GIT_COMMIT" value="b9386811319b8f4a3cb36c6377e711ed69fa8450"/>
     <property name="java.io.tmpdir" value="C:\Users\BaoHu\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\BaoHu\AppData\Roaming"/>
     <property name="user.language" value="zh"/>
     <property name="CATALINA_TMPDIR" value="D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56\temp"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/2/"/>
     <property name="ACTION" value="start"/>
     <property name="M2_HOME" value="C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0"/>
     <property name="java.vm.info" value="mixed mode"/>
@@ -62,14 +63,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="CI" value="true"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CATALINA_BASE" value="D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56"/>
     <property name="HUDSON_SERVER_COOKIE" value="d492d46636bf70af"/>
     <property name="JRE_HOME" value="D:\tools\java\Java\jdk1.8.0_261"/>
     <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;D:\tools\java\Java\jdk1.8.0_261\bin\java.exe&quot;"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\BaoHu\.jenkins\workspace\跑runTestNG.xml@tmp"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\BaoHu\.jenkins\workspace\WebdriverDemo201701@tmp"/>
     <property name="_RUNJAVA" value="&quot;D:\tools\java\Java\jdk1.8.0_261\bin\java.exe&quot;"/>
     <property name="MAVEN_HOME" value="C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0"/>
     <property name="SESSIONNAME" value="Console"/>
@@ -81,22 +82,25 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="2"/>
     <property name="maven3.interceptor" value="C:\Users\BaoHu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="D:\tools\java\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0/bin;C:\Windows\System32;D:\tools\python\python38\Scripts;D:\tools\python\python38;D:\tools\java\Java\jdk1.8.0_261\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\tools\java\Java\jdk1.8.0_261\jre;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\software_testing\software4\SVN\bin;D:\software_testing\software3\ADB\adb\platform-tools;D:\software_testing\software4\FTP\ant_ftp\ant\apache-ant-1.9.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\tools\NotAboutJava\Google\Google\Chrome\Application;D:\BDDownLoad\HadoopAndWindows\hadoop-3.1.0\bin;D:\BDDownLoad\ziliao\13Maven\apache_maven_3.8.1\bin;D:\tools\Environment\Git\DownLoadPath\Git\cmd;D:\tools\python\path\Scripts\;D:\tools\python\path\;C:\Users\BaoHu\AppData\Local\Microsoft\WindowsApps;D:\IDEA2019\IntelliJ IDEA 2019.3.3\bin;;D:\software_testing\software4\fiddler\path\Fiddler;C:\Users\BaoHu\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="Automation"/>
+    <property name="POM_ARTIFACTID" value="Selenium"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JSSE_OPTS" value="-Djdk.tls.ephemeralDHKeySize=2048"/>
     <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
     <property name="_RUNJDB" value="&quot;D:\tools\java\Java\jdk1.8.0_261\bin\jdb.exe&quot;"/>
-    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/"/>
     <property name="MYSQL_HOME" value="C:\Program Files\MySQL\MySQL Server 5.7"/>
     <property name="ANT_HOME" value="D:\software_testing\software4\FTP\ant_ftp\ant\apache-ant-1.9.9"/>
     <property name="OneDrive" value="C:\Users\BaoHu\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/1/display/redirect"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/2/display/redirect"/>
     <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
     <property name="JENKINS_HOME" value="C:\Users\BaoHu\.jenkins"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="2"/>
     <property name="TEMP" value="C:\Users\BaoHu\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="D:\tools\java\Java\jdk1.8.0_261\jre\bin"/>
     <property name="JDK_JAVA_OPTIONS" value=" --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED"/>
@@ -104,12 +108,13 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.variant" value=""/>
     <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="HUDSON_HOME" value="C:\Users\BaoHu\.jenkins"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0/bin"/>
     <property name="IntelliJ IDEA" value="D:\IDEA2019\IntelliJ IDEA 2019.3.3\bin;"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-RF0I95P3"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/1/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/2/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="CURRENT_DIR" value="D:\tools\Environment\Tomcat\tomcat_9\apache-tomcat-9.0.56\bin"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -118,7 +123,7 @@
     <property name="NODE_LABELS" value="built-in"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="USERPROFILE" value="C:\Users\BaoHu"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/display/redirect"/>
     <property name="java.ext.dirs" value="D:\tools\java\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\BaoHu"/>
@@ -137,9 +142,9 @@
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="os.arch" value="amd64"/>
     <property name="OneDriveConsumer" value="C:\Users\BaoHu\OneDrive"/>
-    <property name="WORKSPACE" value="C:\Users\BaoHu\.jenkins\workspace\跑runTestNG.xml"/>
+    <property name="WORKSPACE" value="C:\Users\BaoHu\.jenkins\workspace\WebdriverDemo201701"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/jenkins/job/%E8%B7%91runTestNG.xml/1/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/jenkins/job/WebdriverDemo201701/2/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
@@ -152,22 +157,25 @@
     <property name="sun.boot.class.path" value="D:\tools\java\Java\jdk1.8.0_261\jre\lib\resources.jar;D:\tools\java\Java\jdk1.8.0_261\jre\lib\rt.jar;D:\tools\java\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;D:\tools\java\Java\jdk1.8.0_261\jre\lib\jsse.jar;D:\tools\java\Java\jdk1.8.0_261\jre\lib\jce.jar;D:\tools\java\Java\jdk1.8.0_261\jre\lib\charsets.jar;D:\tools\java\Java\jdk1.8.0_261\jre\lib\jfr.jar;D:\tools\java\Java\jdk1.8.0_261\jre\classes"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.country" value="CN"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="maven.home" value="C:\Users\BaoHu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3.6.0"/>
     <property name="ENDORSED_PROP" value="ignore.endorsed.dirs"/>
     <property name="HADOOP_HOME" value="D:\BDDownLoad\HadoopAndWindows\hadoop-3.1.0"/>
-    <property name="JOB_BASE_NAME" value="跑runTestNG.xml"/>
+    <property name="JOB_BASE_NAME" value="WebdriverDemo201701"/>
     <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Selenium"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/dajun226/Selenium1701Demo.git"/>
   </properties>
-  <testcase classname="com.hujunqi.day05.AlertTest" name="alertTestDemo" time="0.203"/>
-  <testcase classname="com.hujunqi.day01.BrowserActionsTest" name="judgeUrlWhetherTrue" time="16.715"/>
-  <testcase classname="com.hujunqi.day01.CloseBrowserTest" name="closeeChrome" time="11.225"/>
-  <testcase classname="com.hujunqi.day05.ConfirmTest" name="confirmTest" time="6.312"/>
+  <testcase classname="com.hujunqi.day05.AlertTest" name="alertTestDemo" time="0.237"/>
+  <testcase classname="com.hujunqi.day01.BrowserActionsTest" name="judgeUrlWhetherTrue" time="16.57"/>
+  <testcase classname="com.hujunqi.day01.CloseBrowserTest" name="closeeChrome" time="11.204"/>
+  <testcase classname="com.hujunqi.day05.ConfirmTest" name="confirmTest" time="6.287"/>
   <testcase classname="com.hujunqi.day08.DataDriverTest" name="loginTest" time="0"/>
-  <testcase classname="com.hujunqi.day08.DataDriverTest" name="loginTest" time="0.001"/>
-  <testcase classname="com.hujunqi.day01.FindElementsTest" name="findElements" time="0.68"/>
-  <testcase classname="com.hujunqi.Grid.GridTests.GridTest" name="testChrome" time="2.048">
+  <testcase classname="com.hujunqi.day08.DataDriverTest" name="loginTest" time="0"/>
+  <testcase classname="com.hujunqi.day01.FindElementsTest" name="findElements" time="6.549"/>
+  <testcase classname="com.hujunqi.Grid.GridTests.GridTest" name="testChrome" time="2.063">
     <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
 System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
@@ -212,7 +220,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 53 more
 </failure>
   </testcase>
-  <testcase classname="com.hujunqi.Grid.GridTests.GridTest" name="testGrid2" time="2.037">
+  <testcase classname="com.hujunqi.Grid.GridTests.GridTest" name="testGrid2" time="2.018">
     <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
 System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
@@ -257,7 +265,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 53 more
 </failure>
   </testcase>
-  <testcase classname="com.hujunqi.Grid.GridTests.GridTest" name="testGrid2" time="2.024">
+  <testcase classname="com.hujunqi.Grid.GridTests.GridTest" name="testGrid2" time="2.05">
     <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
 System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
@@ -302,7 +310,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 53 more
 </failure>
   </testcase>
-  <testcase classname="com.hujunqi.day07.LoginTest" name="LoginTest" time="10.73">
+  <testcase classname="com.hujunqi.day07.LoginTest" name="LoginTest" time="1.968"/>
+  <testcase classname="com.hujunqi.day07.LoginTest" name="LoginTest" time="10.596">
     <failure message="Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
@@ -321,44 +330,17 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
 	... 35 more
 </failure>
-    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 16140
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24986
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-十二月 21, 2021 11:20:43 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+十二月 21, 2021 11:42:23 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
 信息: Detected dialect: W3C
 </system-err>
   </testcase>
-  <testcase classname="com.hujunqi.day07.LoginTest" name="LoginTest" time="10.545">
-    <failure message="Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.LoginTest.LoginTest(LoginTest.java:51)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: 设置
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-</failure>
-    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20837
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-十二月 21, 2021 11:21:08 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
-信息: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openChrome" time="1.736"/>
-  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openEdge" time="3.702"/>
-  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openFireFoxTest" time="0.009">
+  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openChrome" time="1.856"/>
+  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openEdge" time="3.678"/>
+  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openFireFoxTest" time="0.006">
     <failure message="Specified firefox binary location does not exist or is not a real file: D:\tools\HuoHu\Mozilla Firefox\firefox.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Specified firefox binary location does not exist or is not a real file: D:\tools\HuoHu\Mozilla Firefox\firefox.exe
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:459)
 	at org.openqa.selenium.firefox.internal.Executable.&lt;init&gt;(Executable.java:45)
@@ -373,36 +355,10 @@ ChromeDriver was started successfully.
 	at com.hujunqi.day01.OpenBrowserTest.openFireFoxTest(OpenBrowserTest.java:29)
 </failure>
   </testcase>
-  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openIE" time="1.344"/>
-  <testcase classname="com.hujunqi.day07.SendEmailTest" name="sendEmail" time="10.759">
-    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&quot;dvNavTop&quot;]/ul/li[2]/span[2] (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&quot;dvNavTop&quot;]/ul/li[2]/span[2] (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.SendEmailTest.sendEmail(SendEmailTest.java:36)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id=&quot;dvNavTop&quot;]/ul/li[2]/span[2]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-</failure>
-    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46687
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-十二月 21, 2021 11:21:39 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
-信息: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.hujunqi.day01.TestNGDemo1" name="testCase1" time="5.013"/>
-  <testcase classname="com.hujunqi.day01.TestNGDemo1" name="testCase2" time="5.009"/>
-  <testcase classname="com.hujunqi.day05.WaitTest" name="waitTest" time="3.454"/>
-  <testcase classname="com.hujunqi.day05.WindowSelectTest" name="testWin" time="12.774"/>
+  <testcase classname="com.hujunqi.day01.OpenBrowserTest" name="openIE" time="1.373"/>
+  <testcase classname="com.hujunqi.day07.SendEmailTest" name="sendEmail" time="11.061"/>
+  <testcase classname="com.hujunqi.day01.TestNGDemo1" name="testCase1" time="5.005"/>
+  <testcase classname="com.hujunqi.day01.TestNGDemo1" name="testCase2" time="5.014"/>
+  <testcase classname="com.hujunqi.day05.WaitTest" name="waitTest" time="3.448"/>
+  <testcase classname="com.hujunqi.day05.WindowSelectTest" name="testWin" time="7.061"/>
 </testsuite>

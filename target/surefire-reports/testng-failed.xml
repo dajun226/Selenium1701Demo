@@ -43,14 +43,13 @@
       <class name="com.hujunqi.day07.SendEmailTest">
         <methods>
           <include name="openChromeDriver"/>
-          <include name="sendEmail"/>
         </methods>
       </class> <!-- com.hujunqi.day07.SendEmailTest -->
       <class name="com.hujunqi.day07.LoginTest">
         <methods>
           <include name="afterMethod"/>
           <include name="openChromeDriver"/>
-          <include name="LoginTest" invocation-numbers="0 1"/>
+          <include name="LoginTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.hujunqi.day07.LoginTest -->
       <class name="com.hujunqi.day05.AlertTest">

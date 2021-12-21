@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods, 7 failed,   14 passed</span>
+                    <span class="method-stats">21 methods, 5 failed,   16 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,22 +101,12 @@
                     <div class="method-list-content failed suite-Command_line_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day07.LoginTest" hash-for-method="LoginTest(dajun226@163.com, 040502abc)">LoginTest(dajun226@163.com, 040502abc)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day07.LoginTest" hash-for-method="LoginTest(dajun226@163.com, 040502abcABC)">LoginTest(dajun226@163.com, 040502abcABC)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day01.OpenBrowserTest" hash-for-method="openFireFoxTest">openFireFoxTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day07.SendEmailTest" hash-for-method="sendEmail">sendEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +133,11 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day07.LoginTest" hash-for-method="LoginTest(dajun226@163.com, 040502abc)">LoginTest(dajun226@163.com, 040502abc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day05.AlertTest" hash-for-method="alertTestDemo">alertTestDemo</a> <!-- method navigator-link -->
@@ -191,6 +186,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day01.OpenBrowserTest" hash-for-method="openIE">openIE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.hujunqi.day07.SendEmailTest" hash-for-method="sendEmail">sendEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -382,70 +382,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.hujunqi.day07.SendEmailTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sendEmail">
-                  </a> <!-- sendEmail -->
-                  <span class="method-name">sendEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&quot;dvNavTop&quot;]/ul/li[2]/span[2] (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.SendEmailTest.sendEmail(SendEmailTest.java:36)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id=&quot;dvNavTop&quot;]/ul/li[2]/span[2]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">com.hujunqi.day07.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest(dajun226@163.com, 040502abc)">
-                  </a> <!-- LoginTest(dajun226@163.com, 040502abc) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(dajun226@163.com, 040502abc)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.LoginTest.LoginTest(LoginTest.java:51)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: 设置
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;LAPTOP-RF0I95P3&apos;, ip: &apos;192.168.184.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="LoginTest(dajun226@163.com, 040502abcABC)">
@@ -544,36 +483,6 @@ Driver info: driver.version: unknown
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.hujunqi.day05.WaitTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="waitTest">
-                  </a> <!-- waitTest -->
-                  <span class="method-name">waitTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.hujunqi.day01.BrowserActionsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="judgeUrlWhetherTrue">
-                  </a> <!-- judgeUrlWhetherTrue -->
-                  <span class="method-name">judgeUrlWhetherTrue</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.hujunqi.day01.FindElementsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -597,21 +506,6 @@ Driver info: driver.version: unknown
                   <a name="testWin">
                   </a> <!-- testWin -->
                   <span class="method-name">testWin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.hujunqi.day01.CloseBrowserTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="closeeChrome">
-                  </a> <!-- closeeChrome -->
-                  <span class="method-name">closeeChrome</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -656,6 +550,82 @@ Driver info: driver.version: unknown
                   <a name="openIE">
                   </a> <!-- openIE -->
                   <span class="method-name">openIE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hujunqi.day05.WaitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="waitTest">
+                  </a> <!-- waitTest -->
+                  <span class="method-name">waitTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hujunqi.day01.BrowserActionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="judgeUrlWhetherTrue">
+                  </a> <!-- judgeUrlWhetherTrue -->
+                  <span class="method-name">judgeUrlWhetherTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hujunqi.day07.SendEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendEmail">
+                  </a> <!-- sendEmail -->
+                  <span class="method-name">sendEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hujunqi.day01.CloseBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeeChrome">
+                  </a> <!-- closeeChrome -->
+                  <span class="method-name">closeeChrome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hujunqi.day07.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(dajun226@163.com, 040502abc)">
+                  </a> <!-- LoginTest(dajun226@163.com, 040502abc) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(dajun226@163.com, 040502abc)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -751,79 +721,79 @@ data.addRows(21);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'judgeUrlWhetherTrue')
 data.setCell(0, 2, 'com.hujunqi.day01.BrowserActionsTest')
-data.setCell(0, 3, 16717);
+data.setCell(0, 3, 16572);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testWin')
-data.setCell(1, 2, 'com.hujunqi.day05.WindowSelectTest')
-data.setCell(1, 3, 12774);
+data.setCell(1, 1, 'closeeChrome')
+data.setCell(1, 2, 'com.hujunqi.day01.CloseBrowserTest')
+data.setCell(1, 3, 11203);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'closeeChrome')
-data.setCell(2, 2, 'com.hujunqi.day01.CloseBrowserTest')
-data.setCell(2, 3, 11226);
+data.setCell(2, 1, 'sendEmail')
+data.setCell(2, 2, 'com.hujunqi.day07.SendEmailTest')
+data.setCell(2, 3, 11061);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'sendEmail')
-data.setCell(3, 2, 'com.hujunqi.day07.SendEmailTest')
-data.setCell(3, 3, 10758);
+data.setCell(3, 1, 'LoginTest')
+data.setCell(3, 2, 'com.hujunqi.day07.LoginTest')
+data.setCell(3, 3, 10595);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoginTest')
-data.setCell(4, 2, 'com.hujunqi.day07.LoginTest')
-data.setCell(4, 3, 10730);
+data.setCell(4, 1, 'testWin')
+data.setCell(4, 2, 'com.hujunqi.day05.WindowSelectTest')
+data.setCell(4, 3, 7062);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginTest')
-data.setCell(5, 2, 'com.hujunqi.day07.LoginTest')
-data.setCell(5, 3, 10546);
+data.setCell(5, 1, 'findElements')
+data.setCell(5, 2, 'com.hujunqi.day01.FindElementsTest')
+data.setCell(5, 3, 6549);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'confirmTest')
 data.setCell(6, 2, 'com.hujunqi.day05.ConfirmTest')
-data.setCell(6, 3, 6311);
+data.setCell(6, 3, 6287);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testCase1')
+data.setCell(7, 1, 'testCase2')
 data.setCell(7, 2, 'com.hujunqi.day01.TestNGDemo1')
-data.setCell(7, 3, 5013);
+data.setCell(7, 3, 5015);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testCase2')
+data.setCell(8, 1, 'testCase1')
 data.setCell(8, 2, 'com.hujunqi.day01.TestNGDemo1')
-data.setCell(8, 3, 5010);
+data.setCell(8, 3, 5005);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'openEdge')
 data.setCell(9, 2, 'com.hujunqi.day01.OpenBrowserTest')
-data.setCell(9, 3, 3703);
+data.setCell(9, 3, 3679);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'waitTest')
 data.setCell(10, 2, 'com.hujunqi.day05.WaitTest')
-data.setCell(10, 3, 3453);
+data.setCell(10, 3, 3448);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testChrome')
 data.setCell(11, 2, 'com.hujunqi.Grid.GridTests.GridTest')
-data.setCell(11, 3, 2045);
+data.setCell(11, 3, 2052);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'testGrid2')
 data.setCell(12, 2, 'com.hujunqi.Grid.GridTests.GridTest')
-data.setCell(12, 3, 2034);
+data.setCell(12, 3, 2047);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'testGrid2')
 data.setCell(13, 2, 'com.hujunqi.Grid.GridTests.GridTest')
-data.setCell(13, 3, 2019);
+data.setCell(13, 3, 2018);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'openChrome')
-data.setCell(14, 2, 'com.hujunqi.day01.OpenBrowserTest')
-data.setCell(14, 3, 1736);
+data.setCell(14, 1, 'LoginTest')
+data.setCell(14, 2, 'com.hujunqi.day07.LoginTest')
+data.setCell(14, 3, 1968);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'openIE')
+data.setCell(15, 1, 'openChrome')
 data.setCell(15, 2, 'com.hujunqi.day01.OpenBrowserTest')
-data.setCell(15, 3, 1345);
+data.setCell(15, 3, 1856);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'findElements')
-data.setCell(16, 2, 'com.hujunqi.day01.FindElementsTest')
-data.setCell(16, 3, 680);
+data.setCell(16, 1, 'openIE')
+data.setCell(16, 2, 'com.hujunqi.day01.OpenBrowserTest')
+data.setCell(16, 3, 1373);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'alertTestDemo')
 data.setCell(17, 2, 'com.hujunqi.day05.AlertTest')
-data.setCell(17, 3, 202);
+data.setCell(17, 3, 236);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'openFireFoxTest')
 data.setCell(18, 2, 'com.hujunqi.day01.OpenBrowserTest')
-data.setCell(18, 3, 10);
+data.setCell(18, 3, 5);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'loginTest')
 data.setCell(19, 2, 'com.hujunqi.day08.DataDriverTest')
@@ -872,62 +842,62 @@ return data;
               <div class="chronological-class-name">com.hujunqi.day05.AlertTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">alertTestDemo</span>
-                <span class="method-start">1981 ms</span>
+                <span class="method-start">2070 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day01.BrowserActionsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">judgeUrlWhetherTrue</span>
-                <span class="method-start">2184 ms</span>
+                <span class="method-start">2307 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day01.CloseBrowserTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">closeeChrome</span>
-                <span class="method-start">18901 ms</span>
+                <span class="method-start">18879 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day05.ConfirmTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">30127 ms</span>
+                <span class="method-start">30083 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">confirmTest</span>
-                <span class="method-start">31269 ms</span>
+                <span class="method-start">31256 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day08.DataDriverTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginTest(user1, pwd1)</span>
-                <span class="method-start">37586 ms</span>
+                <span class="method-start">37545 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest(user2, pwd2)</span>
-                <span class="method-start">37587 ms</span>
+                <span class="method-start">37545 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day01.FindElementsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChrome</span>
-                <span class="method-start">37589 ms</span>
+                <span class="method-start">37545 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">findElements</span>
-                <span class="method-start">38745 ms</span>
+                <span class="method-start">38747 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">39426 ms</span>
+                <span class="method-start">45296 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -936,148 +906,144 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testChrome</span>
-                <span class="method-start">40089 ms</span>
+                <span class="method-start">45959 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testGrid2(chrome, http://192.168.134.1:6666)</span>
-                <span class="method-start">42137 ms</span>
+                <span class="method-start">48021 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testGrid2(firefox, http://192.168.134.1:6666)</span>
-                <span class="method-start">44175 ms</span>
+                <span class="method-start">50041 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day07.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">46200 ms</span>
+                <span class="method-start">52091 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">LoginTest(dajun226@163.com, 040502abc)</span>
-                <span class="method-start">59732 ms</span>
+                <span class="method-start">54739 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">70463 ms</span>
+                <span class="method-start">56707 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">71129 ms</span>
+                <span class="method-start">57355 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoginTest(dajun226@163.com, 040502abcABC)</span>
-                <span class="method-start">84174 ms</span>
+                <span class="method-start">59991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">94720 ms</span>
+                <span class="method-start">70586 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day01.OpenBrowserTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openChrome</span>
-                <span class="method-start">95360 ms</span>
+                <span class="method-start">71216 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openEdge</span>
-                <span class="method-start">97096 ms</span>
+                <span class="method-start">73072 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">openFireFoxTest</span>
-                <span class="method-start">100799 ms</span>
+                <span class="method-start">76751 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openIE</span>
-                <span class="method-start">100809 ms</span>
+                <span class="method-start">76757 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day07.SendEmailTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">102155 ms</span>
+                <span class="method-start">78130 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">sendEmail</span>
-                <span class="method-start">104809 ms</span>
+                <span class="method-start">80862 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day01.TestNGDemo1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">115568 ms</span>
+                <span class="method-start">91924 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCase1</span>
-                <span class="method-start">115568 ms</span>
+                <span class="method-start">91924 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">120581 ms</span>
+                <span class="method-start">96929 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">120582 ms</span>
+                <span class="method-start">96929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCase2</span>
-                <span class="method-start">120582 ms</span>
+                <span class="method-start">96929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">125592 ms</span>
+                <span class="method-start">101944 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day05.WaitTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">125593 ms</span>
+                <span class="method-start">101945 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">waitTest</span>
-                <span class="method-start">126715 ms</span>
+                <span class="method-start">103086 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeChromeDriver</span>
-                <span class="method-start">130169 ms</span>
+                <span class="method-start">106534 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day05.WindowSelectTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openChromeDriver</span>
-                <span class="method-start">130202 ms</span>
+                <span class="method-start">106579 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWin</span>
-                <span class="method-start">131330 ms</span>
+                <span class="method-start">107719 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeChromeDriver</span>
-                <span class="method-start">144104 ms</span>
+                <span class="method-start">114781 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hujunqi.day01.TestNGDemo1</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest01</span>
-                <span class="method-start">144165 ms</span>
+                <span class="method-start">114846 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

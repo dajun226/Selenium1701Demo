@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" total="21" passed="14">
+<testng-results skipped="0" failed="5" total="21" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="144167" started-at="2021-12-21T03:19:55Z" finished-at="2021-12-21T03:22:20Z">
+  <suite name="Command line suite" duration-ms="114847" started-at="2021-12-21T03:41:25Z" finished-at="2021-12-21T03:43:20Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="144167" started-at="2021-12-21T03:19:55Z" finished-at="2021-12-21T03:22:20Z">
+    <test name="Command line test" duration-ms="114847" started-at="2021-12-21T03:41:25Z" finished-at="2021-12-21T03:43:20Z">
       <class name="com.hujunqi.day07.LoginTest">
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="openChromeDriver" is-config="true" duration-ms="13532" started-at="2021-12-21T11:20:42Z" finished-at="2021-12-21T11:20:55Z">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="openChromeDriver" is-config="true" duration-ms="2648" started-at="2021-12-21T11:42:17Z" finished-at="2021-12-21T11:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method status="FAIL" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="LoginTest" duration-ms="10730" started-at="2021-12-21T11:20:55Z" data-provider="userlist" finished-at="2021-12-21T11:21:06Z">
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="LoginTest" duration-ms="1968" started-at="2021-12-21T11:42:20Z" data-provider="userlist" finished-at="2021-12-21T11:42:22Z">
           <params>
             <param index="0">
               <value>
@@ -24,77 +24,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: 设置 (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.LoginTest.LoginTest(LoginTest.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: 设置
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="afterMethod" is-config="true" duration-ms="666" started-at="2021-12-21T11:21:06Z" finished-at="2021-12-21T11:21:07Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="afterMethod" is-config="true" duration-ms="648" started-at="2021-12-21T11:42:22Z" finished-at="2021-12-21T11:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="openChromeDriver" is-config="true" duration-ms="13045" started-at="2021-12-21T11:21:07Z" finished-at="2021-12-21T11:21:20Z">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="openChromeDriver" is-config="true" duration-ms="2636" started-at="2021-12-21T11:42:22Z" finished-at="2021-12-21T11:42:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method status="FAIL" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="LoginTest" duration-ms="10546" started-at="2021-12-21T11:21:20Z" data-provider="userlist" finished-at="2021-12-21T11:21:30Z">
+        <test-method status="FAIL" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="LoginTest" duration-ms="10595" started-at="2021-12-21T11:42:25Z" data-provider="userlist" finished-at="2021-12-21T11:42:35Z">
           <params>
             <param index="0">
               <value>
@@ -169,106 +110,61 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="afterMethod" is-config="true" duration-ms="640" started-at="2021-12-21T11:21:30Z" finished-at="2021-12-21T11:21:31Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day07.LoginTest@2c6a3f77]" name="afterMethod" is-config="true" duration-ms="630" started-at="2021-12-21T11:42:35Z" finished-at="2021-12-21T11:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.hujunqi.day07.LoginTest -->
       <class name="com.hujunqi.day05.ConfirmTest">
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.ConfirmTest@735f7ae5]" name="openChromeDriver" is-config="true" duration-ms="1142" started-at="2021-12-21T11:20:26Z" finished-at="2021-12-21T11:20:27Z">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.ConfirmTest@735f7ae5]" name="openChromeDriver" is-config="true" duration-ms="1173" started-at="2021-12-21T11:41:55Z" finished-at="2021-12-21T11:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method status="PASS" signature="confirmTest()[pri:0, instance:com.hujunqi.day05.ConfirmTest@735f7ae5]" name="confirmTest" duration-ms="6311" started-at="2021-12-21T11:20:27Z" finished-at="2021-12-21T11:20:33Z">
+        <test-method status="PASS" signature="confirmTest()[pri:0, instance:com.hujunqi.day05.ConfirmTest@735f7ae5]" name="confirmTest" duration-ms="6287" started-at="2021-12-21T11:41:56Z" finished-at="2021-12-21T11:42:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTest -->
       </class> <!-- com.hujunqi.day05.ConfirmTest -->
       <class name="com.hujunqi.day07.SendEmailTest">
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day07.SendEmailTest@246ae04d]" name="openChromeDriver" is-config="true" duration-ms="2654" started-at="2021-12-21T11:21:38Z" finished-at="2021-12-21T11:21:40Z">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day07.SendEmailTest@246ae04d]" name="openChromeDriver" is-config="true" duration-ms="2732" started-at="2021-12-21T11:42:43Z" finished-at="2021-12-21T11:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method status="FAIL" signature="sendEmail()[pri:0, instance:com.hujunqi.day07.SendEmailTest@246ae04d]" name="sendEmail" duration-ms="10758" started-at="2021-12-21T11:21:40Z" finished-at="2021-12-21T11:21:51Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="dvNavTop"]/ul/li[2]/span[2] (tried for 10 second(s) with 500 MILLISECONDS interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="dvNavTop"]/ul/li[2]/span[2] (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.SendEmailTest.sendEmail(SendEmailTest.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="dvNavTop"]/ul/li[2]/span[2]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="sendEmail()[pri:0, instance:com.hujunqi.day07.SendEmailTest@246ae04d]" name="sendEmail" duration-ms="11061" started-at="2021-12-21T11:42:46Z" finished-at="2021-12-21T11:42:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendEmail -->
       </class> <!-- com.hujunqi.day07.SendEmailTest -->
       <class name="com.hujunqi.day01.BrowserActionsTest">
-        <test-method status="PASS" signature="judgeUrlWhetherTrue()[pri:0, instance:com.hujunqi.day01.BrowserActionsTest@64616ca2]" name="judgeUrlWhetherTrue" duration-ms="16717" started-at="2021-12-21T11:19:58Z" finished-at="2021-12-21T11:20:14Z">
+        <test-method status="PASS" signature="judgeUrlWhetherTrue()[pri:0, instance:com.hujunqi.day01.BrowserActionsTest@64616ca2]" name="judgeUrlWhetherTrue" duration-ms="16572" started-at="2021-12-21T11:41:27Z" finished-at="2021-12-21T11:41:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- judgeUrlWhetherTrue -->
       </class> <!-- com.hujunqi.day01.BrowserActionsTest -->
+      <class name="com.hujunqi.day05.WindowSelectTest">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.WindowSelectTest@1324409e]" name="openChromeDriver" is-config="true" duration-ms="1140" started-at="2021-12-21T11:43:11Z" finished-at="2021-12-21T11:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeDriver -->
+        <test-method status="PASS" signature="testWin()[pri:0, instance:com.hujunqi.day05.WindowSelectTest@1324409e]" name="testWin" duration-ms="7062" started-at="2021-12-21T11:43:13Z" finished-at="2021-12-21T11:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWin -->
+        <test-method status="PASS" signature="closeChromeDriver()[pri:0, instance:com.hujunqi.day05.WindowSelectTest@1324409e]" name="closeChromeDriver" is-config="true" duration-ms="64" started-at="2021-12-21T11:43:20Z" finished-at="2021-12-21T11:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChromeDriver -->
+      </class> <!-- com.hujunqi.day05.WindowSelectTest -->
       <class name="com.hujunqi.day01.OpenBrowserTest">
-        <test-method status="PASS" signature="openChrome()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openChrome" duration-ms="1736" started-at="2021-12-21T11:21:31Z" finished-at="2021-12-21T11:21:33Z">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openChrome" duration-ms="1856" started-at="2021-12-21T11:42:36Z" finished-at="2021-12-21T11:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method status="PASS" signature="openEdge()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openEdge" duration-ms="3703" started-at="2021-12-21T11:21:33Z" finished-at="2021-12-21T11:21:36Z">
+        <test-method status="PASS" signature="openEdge()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openEdge" duration-ms="3679" started-at="2021-12-21T11:42:38Z" finished-at="2021-12-21T11:42:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openEdge -->
-        <test-method status="FAIL" signature="openFireFoxTest()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openFireFoxTest" duration-ms="10" started-at="2021-12-21T11:21:36Z" finished-at="2021-12-21T11:21:36Z">
+        <test-method status="FAIL" signature="openFireFoxTest()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openFireFoxTest" duration-ms="5" started-at="2021-12-21T11:42:42Z" finished-at="2021-12-21T11:42:42Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[Specified firefox binary location does not exist or is not a real file: D:\tools\HuoHu\Mozilla Firefox\firefox.exe]]>
@@ -326,89 +222,75 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFireFoxTest -->
-        <test-method status="PASS" signature="openIE()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openIE" duration-ms="1345" started-at="2021-12-21T11:21:36Z" finished-at="2021-12-21T11:21:38Z">
+        <test-method status="PASS" signature="openIE()[pri:0, instance:com.hujunqi.day01.OpenBrowserTest@783e6358]" name="openIE" duration-ms="1373" started-at="2021-12-21T11:42:42Z" finished-at="2021-12-21T11:42:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openIE -->
       </class> <!-- com.hujunqi.day01.OpenBrowserTest -->
-      <class name="com.hujunqi.day05.WindowSelectTest">
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.WindowSelectTest@1324409e]" name="openChromeDriver" is-config="true" duration-ms="1128" started-at="2021-12-21T11:22:06Z" finished-at="2021-12-21T11:22:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openChromeDriver -->
-        <test-method status="PASS" signature="testWin()[pri:0, instance:com.hujunqi.day05.WindowSelectTest@1324409e]" name="testWin" duration-ms="12774" started-at="2021-12-21T11:22:07Z" finished-at="2021-12-21T11:22:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWin -->
-        <test-method status="PASS" signature="closeChromeDriver()[pri:0, instance:com.hujunqi.day05.WindowSelectTest@1324409e]" name="closeChromeDriver" is-config="true" duration-ms="60" started-at="2021-12-21T11:22:20Z" finished-at="2021-12-21T11:22:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeChromeDriver -->
-      </class> <!-- com.hujunqi.day05.WindowSelectTest -->
       <class name="com.hujunqi.day01.TestNGDemo1">
-        <test-method status="PASS" signature="beforeTest01()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="beforeTest01" is-config="true" duration-ms="6" started-at="2021-12-21T11:19:55Z" finished-at="2021-12-21T11:19:55Z">
+        <test-method status="PASS" signature="beforeTest01()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="beforeTest01" is-config="true" duration-ms="8" started-at="2021-12-21T11:41:25Z" finished-at="2021-12-21T11:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest01 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:21:51Z" finished-at="2021-12-21T11:21:51Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:42:57Z" finished-at="2021-12-21T11:42:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="testCase1" duration-ms="5013" started-at="2021-12-21T11:21:51Z" finished-at="2021-12-21T11:21:56Z">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="testCase1" duration-ms="5005" started-at="2021-12-21T11:42:57Z" finished-at="2021-12-21T11:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-12-21T11:21:56Z" finished-at="2021-12-21T11:21:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:21:56Z" finished-at="2021-12-21T11:21:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="testCase2" duration-ms="5010" started-at="2021-12-21T11:21:56Z" finished-at="2021-12-21T11:22:01Z">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="testCase2" duration-ms="5015" started-at="2021-12-21T11:43:02Z" finished-at="2021-12-21T11:43:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:22:01Z" finished-at="2021-12-21T11:22:01Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:43:02Z" finished-at="2021-12-21T11:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest01()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="afterTest01" is-config="true" duration-ms="1" started-at="2021-12-21T11:22:20Z" finished-at="2021-12-21T11:22:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:43:02Z" finished-at="2021-12-21T11:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-21T11:43:07Z" finished-at="2021-12-21T11:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest01()[pri:0, instance:com.hujunqi.day01.TestNGDemo1@3b81a1bc]" name="afterTest01" is-config="true" duration-ms="1" started-at="2021-12-21T11:43:20Z" finished-at="2021-12-21T11:43:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest01 -->
       </class> <!-- com.hujunqi.day01.TestNGDemo1 -->
       <class name="com.hujunqi.day05.WaitTest">
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.WaitTest@180bc464]" name="openChromeDriver" is-config="true" duration-ms="1122" started-at="2021-12-21T11:22:01Z" finished-at="2021-12-21T11:22:02Z">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.WaitTest@180bc464]" name="openChromeDriver" is-config="true" duration-ms="1141" started-at="2021-12-21T11:43:07Z" finished-at="2021-12-21T11:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method status="PASS" signature="waitTest()[pri:0, instance:com.hujunqi.day05.WaitTest@180bc464]" name="waitTest" duration-ms="3453" started-at="2021-12-21T11:22:02Z" finished-at="2021-12-21T11:22:06Z">
+        <test-method status="PASS" signature="waitTest()[pri:0, instance:com.hujunqi.day05.WaitTest@180bc464]" name="waitTest" duration-ms="3448" started-at="2021-12-21T11:43:08Z" finished-at="2021-12-21T11:43:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitTest -->
-        <test-method status="PASS" signature="closeChromeDriver()[pri:0, instance:com.hujunqi.day05.WaitTest@180bc464]" name="closeChromeDriver" is-config="true" duration-ms="32" started-at="2021-12-21T11:22:06Z" finished-at="2021-12-21T11:22:06Z">
+        <test-method status="PASS" signature="closeChromeDriver()[pri:0, instance:com.hujunqi.day05.WaitTest@180bc464]" name="closeChromeDriver" is-config="true" duration-ms="45" started-at="2021-12-21T11:43:11Z" finished-at="2021-12-21T11:43:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeDriver -->
       </class> <!-- com.hujunqi.day05.WaitTest -->
       <class name="com.hujunqi.day01.FindElementsTest">
-        <test-method status="PASS" signature="openChrome()[pri:0, instance:com.hujunqi.day01.FindElementsTest@4e04a765]" name="openChrome" is-config="true" duration-ms="1156" started-at="2021-12-21T11:20:33Z" finished-at="2021-12-21T11:20:34Z">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:com.hujunqi.day01.FindElementsTest@4e04a765]" name="openChrome" is-config="true" duration-ms="1202" started-at="2021-12-21T11:42:02Z" finished-at="2021-12-21T11:42:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method status="PASS" signature="findElements()[pri:0, instance:com.hujunqi.day01.FindElementsTest@4e04a765]" name="findElements" duration-ms="680" started-at="2021-12-21T11:20:34Z" finished-at="2021-12-21T11:20:35Z">
+        <test-method status="PASS" signature="findElements()[pri:0, instance:com.hujunqi.day01.FindElementsTest@4e04a765]" name="findElements" duration-ms="6549" started-at="2021-12-21T11:42:04Z" finished-at="2021-12-21T11:42:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findElements -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hujunqi.day01.FindElementsTest@4e04a765]" name="closeBrowser" is-config="true" duration-ms="662" started-at="2021-12-21T11:20:35Z" finished-at="2021-12-21T11:20:36Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hujunqi.day01.FindElementsTest@4e04a765]" name="closeBrowser" is-config="true" duration-ms="662" started-at="2021-12-21T11:42:10Z" finished-at="2021-12-21T11:42:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.hujunqi.day01.FindElementsTest -->
       <class name="com.hujunqi.Grid.GridTests.GridTest">
-        <test-method status="FAIL" signature="testChrome()[pri:0, instance:com.hujunqi.Grid.GridTests.GridTest@5315b42e]" name="testChrome" duration-ms="2045" started-at="2021-12-21T11:20:36Z" finished-at="2021-12-21T11:20:38Z">
+        <test-method status="FAIL" signature="testChrome()[pri:0, instance:com.hujunqi.Grid.GridTests.GridTest@5315b42e]" name="testChrome" duration-ms="2052" started-at="2021-12-21T11:42:11Z" finished-at="2021-12-21T11:42:13Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -496,7 +378,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChrome -->
-        <test-method status="FAIL" signature="testGrid2(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.Grid.GridTests.GridTest@5315b42e]" name="testGrid2" duration-ms="2034" started-at="2021-12-21T11:20:38Z" data-provider="data4" finished-at="2021-12-21T11:20:40Z">
+        <test-method status="FAIL" signature="testGrid2(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.Grid.GridTests.GridTest@5315b42e]" name="testGrid2" duration-ms="2018" started-at="2021-12-21T11:42:13Z" data-provider="data4" finished-at="2021-12-21T11:42:15Z">
           <params>
             <param index="0">
               <value>
@@ -596,7 +478,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGrid2 -->
-        <test-method status="FAIL" signature="testGrid2(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.Grid.GridTests.GridTest@5315b42e]" name="testGrid2" duration-ms="2019" started-at="2021-12-21T11:20:40Z" data-provider="data4" finished-at="2021-12-21T11:20:42Z">
+        <test-method status="FAIL" signature="testGrid2(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.Grid.GridTests.GridTest@5315b42e]" name="testGrid2" duration-ms="2047" started-at="2021-12-21T11:42:15Z" data-provider="data4" finished-at="2021-12-21T11:42:17Z">
           <params>
             <param index="0">
               <value>
@@ -698,23 +580,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
         </test-method> <!-- testGrid2 -->
       </class> <!-- com.hujunqi.Grid.GridTests.GridTest -->
       <class name="com.hujunqi.day08.DataDriverTest">
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day08.DataDriverTest@62043840]" name="loginTest" duration-ms="0" started-at="2021-12-21T11:20:33Z" data-provider="loginUser" finished-at="2021-12-21T11:20:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day08.DataDriverTest@62043840]" name="loginTest" duration-ms="0" started-at="2021-12-21T11:20:33Z" data-provider="loginUser" finished-at="2021-12-21T11:20:33Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day08.DataDriverTest@62043840]" name="loginTest" duration-ms="0" started-at="2021-12-21T11:42:02Z" data-provider="loginUser" finished-at="2021-12-21T11:42:02Z">
           <params>
             <param index="0">
               <value>
@@ -730,19 +596,35 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hujunqi.day08.DataDriverTest@62043840]" name="loginTest" duration-ms="0" started-at="2021-12-21T11:42:02Z" data-provider="loginUser" finished-at="2021-12-21T11:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
       </class> <!-- com.hujunqi.day08.DataDriverTest -->
       <class name="com.hujunqi.day01.CloseBrowserTest">
-        <test-method status="PASS" signature="closeeChrome()[pri:0, instance:com.hujunqi.day01.CloseBrowserTest@13fee20c]" name="closeeChrome" duration-ms="11226" started-at="2021-12-21T11:20:14Z" finished-at="2021-12-21T11:20:26Z">
+        <test-method status="PASS" signature="closeeChrome()[pri:0, instance:com.hujunqi.day01.CloseBrowserTest@13fee20c]" name="closeeChrome" duration-ms="11203" started-at="2021-12-21T11:41:44Z" finished-at="2021-12-21T11:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeeChrome -->
       </class> <!-- com.hujunqi.day01.CloseBrowserTest -->
       <class name="com.hujunqi.day05.AlertTest">
-        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.AlertTest@17550481]" name="openChromeDriver" is-config="true" duration-ms="1969" started-at="2021-12-21T11:19:56Z" finished-at="2021-12-21T11:19:57Z">
+        <test-method status="PASS" signature="openChromeDriver()[pri:0, instance:com.hujunqi.day05.AlertTest@17550481]" name="openChromeDriver" is-config="true" duration-ms="2056" started-at="2021-12-21T11:41:25Z" finished-at="2021-12-21T11:41:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method status="PASS" signature="alertTestDemo()[pri:0, instance:com.hujunqi.day05.AlertTest@17550481]" name="alertTestDemo" duration-ms="202" started-at="2021-12-21T11:19:57Z" finished-at="2021-12-21T11:19:58Z">
+        <test-method status="PASS" signature="alertTestDemo()[pri:0, instance:com.hujunqi.day05.AlertTest@17550481]" name="alertTestDemo" duration-ms="236" started-at="2021-12-21T11:41:27Z" finished-at="2021-12-21T11:41:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertTestDemo -->

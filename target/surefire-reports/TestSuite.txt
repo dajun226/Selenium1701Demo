@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 144.778 sec <<< FAILURE!
-testChrome(com.hujunqi.Grid.GridTests.GridTest)  Time elapsed: 2.048 sec  <<< FAILURE!
+Tests run: 21, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 115.432 sec <<< FAILURE!
+testChrome(com.hujunqi.Grid.GridTests.GridTest)  Time elapsed: 2.063 sec  <<< FAILURE!
 org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
@@ -43,7 +43,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 53 more
 
-testGrid2(com.hujunqi.Grid.GridTests.GridTest)  Time elapsed: 2.037 sec  <<< FAILURE!
+testGrid2(com.hujunqi.Grid.GridTests.GridTest)  Time elapsed: 2.018 sec  <<< FAILURE!
 org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
@@ -84,7 +84,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 53 more
 
-testGrid2(com.hujunqi.Grid.GridTests.GridTest)  Time elapsed: 2.024 sec  <<< FAILURE!
+testGrid2(com.hujunqi.Grid.GridTests.GridTest)  Time elapsed: 2.05 sec  <<< FAILURE!
 org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
@@ -125,7 +125,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 53 more
 
-LoginTest(com.hujunqi.day07.LoginTest)  Time elapsed: 10.73 sec  <<< FAILURE!
+LoginTest(com.hujunqi.day07.LoginTest)  Time elapsed: 10.596 sec  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: ÉèÖÃ (tried for 10 second(s) with 500 MILLISECONDS interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
@@ -144,26 +144,7 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
 	... 35 more
 
-LoginTest(com.hujunqi.day07.LoginTest)  Time elapsed: 10.545 sec  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: ÉèÖÃ (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.LoginTest.LoginTest(LoginTest.java:51)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: ÉèÖÃ
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-
-openFireFoxTest(com.hujunqi.day01.OpenBrowserTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+openFireFoxTest(com.hujunqi.day01.OpenBrowserTest)  Time elapsed: 0.006 sec  <<< FAILURE!
 java.lang.IllegalStateException: Specified firefox binary location does not exist or is not a real file: D:\tools\HuoHu\Mozilla Firefox\firefox.exe
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:459)
 	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:45)
@@ -176,23 +157,4 @@ java.lang.IllegalStateException: Specified firefox binary location does not exis
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
 	at com.hujunqi.day01.OpenBrowserTest.openFireFoxTest(OpenBrowserTest.java:29)
-
-sendEmail(com.hujunqi.day07.SendEmailTest)  Time elapsed: 10.759 sec  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="dvNavTop"]/ul/li[2]/span[2] (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.hujunqi.day07.SendEmailTest.sendEmail(SendEmailTest.java:36)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="dvNavTop"]/ul/li[2]/span[2]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'LAPTOP-RF0I95P3', ip: '192.168.184.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
 
